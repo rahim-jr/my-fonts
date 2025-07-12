@@ -2,11 +2,27 @@
 
 A collection of my favorite programming fonts.
 
-## Installation on Linux
+## Easy Installation (Recommended)
 
-There are two primary ways to install fonts on Linux: for a single user or for all users system-wide.
+This repository includes a script to automate the installation process for the current user.
 
-### 1. Single User Installation (Recommended)
+1.  **Clone the repository (if you haven't already):**
+    ```bash
+    git clone https://github.com/rahim-jr/my-fonts.git
+    cd my-fonts
+    ```
+
+2.  **Run the installation script:**
+    ```bash
+    ./install.sh
+    ```
+The script will handle everything: creating the necessary directories, copying all font files, and updating the system's font cache.
+
+## Manual Installation on Linux
+
+If you prefer to install fonts manually, you can follow these steps.
+
+### 1. Single User Installation
 
 This method installs the fonts only for the current user and does not require administrative privileges.
 
